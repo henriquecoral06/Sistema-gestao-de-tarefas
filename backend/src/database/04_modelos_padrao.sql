@@ -8,7 +8,7 @@ BEGIN
     FOR modelo IN
         SELECT nome, divisao, titulos
         FROM (VALUES
-            (1, 'Gatuito', 'produto', ARRAY[
+            (1, 'Gratuito', 'produto', ARRAY[
                 'Definir avatar e público-alvo',
                 'Definir a promessa principal do lançamento',
                 'Estruturar a oferta (preço, bônus, garantia e formas de pagamento)',
