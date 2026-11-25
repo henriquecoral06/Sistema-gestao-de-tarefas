@@ -39,8 +39,19 @@ em quatro divisões fixas: Produto, Conteúdo, Tráfego e Disparos.
 
 ## Estrutura do repositório
 
-- `/frontend` — aplicação React
+- [`/frontend`](frontend/README.md) — aplicação React. Consulte o guia para rodar e publicar o front-end.
 - [`/backend`](backend/README.md) — API REST em Node.js. Consulte o guia para executar a API e configurar o banco de dados.
+- `/docs` — contrato da API (OpenAPI).
+
+## Sistema publicado
+
+| Parte | Endereço | Hospedagem |
+| --- | --- | --- |
+| Front-end | https://sistema-gestao-de-tarefas.pages.dev | Cloudflare Pages |
+| API | https://gestao-tarefas-api-8ln2.onrender.com | Render |
+| Banco de dados | — | PostgreSQL no Render |
+
+O front-end e a API são publicados automaticamente a cada push na branch `main`.
 
 ## Gestão do projeto
 
@@ -48,5 +59,4 @@ Quadro Kanban da equipe: https://trello.com/b/7yreWVfz
 
 ## Status
 
-Em desenvolvimento — banco de dados criado, contrato da API definido e protótipo das telas
-concluído. Próxima fase: implementação do front-end e do back-end.
+Banco de dados, API e telas implementados e publicados. Em fase de testes e ajustes finais.
