@@ -48,7 +48,7 @@ em quatro divisões fixas: Produto, Conteúdo, Tráfego e Disparos.
 | Parte | Endereço | Hospedagem |
 | --- | --- | --- |
 | Front-end | https://sistema-gestao-de-tarefas.pages.dev | Cloudflare Pages |
-| API | https://gestao-tarefas-api-8ln2.onrender.com | Render |
+| API | https://api-forge-growth.onrender.com | Render |
 | Banco de dados | — | PostgreSQL no Render |
 
 O front-end e a API são publicados automaticamente a cada push na branch `main`.
