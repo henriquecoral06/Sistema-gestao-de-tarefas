@@ -35,7 +35,7 @@ em quatro divisões fixas: Produto, Conteúdo, Tráfego e Disparos.
 - **Front-end:** React, Vite, Bootstrap e React-Bootstrap para a interface, React Router para navegação e Axios para chamadas à API.
 - **Back-end:** Node.js e Express para a API REST, Zod para validação de dados e dotenv para configuração por variáveis de ambiente.
 - **Banco de dados:** PostgreSQL, acessado pela API com o driver `pg` (node-postgres).
-- **Autenticação e segurança:** JWT (`jsonwebtoken`) para autenticação, bcrypt para hash de senhas, Helmet para cabeçalhos de segurança e `express-rate-limit` para limitar tentativas de login.
+- **Autenticação e segurança:** JWT (`jsonwebtoken`) para autenticação, scrypt para hash de senhas, Helmet para cabeçalhos de segurança e `express-rate-limit` para limitar tentativas de login.
 - **Testes e qualidade de código:** `node:test` para testes unitários e de ponta a ponta da API e ESLint no front-end e no back-end.
 - **Infraestrutura e documentação:** Docker e Docker Compose para execução local da API e do banco, Cloudflare Pages e Render para hospedagem e OpenAPI para documentação da API.
 
